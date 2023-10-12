@@ -1,10 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <unistd.h>  /* Include this for the write function */
+#include <unistd.h>
 
-int _putchar(char c) __attribute__((unused));
+int _putchar(char c);
 void print_alphabet_x10(void);
 
 #endif /* MAIN_H */
+
 
