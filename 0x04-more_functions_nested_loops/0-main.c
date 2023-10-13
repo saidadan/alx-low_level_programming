@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*main - check the code.
+* main - Check the _isupper function.
 *
 *Return: Always 0.
 */
