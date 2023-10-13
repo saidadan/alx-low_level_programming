@@ -11,3 +11,4 @@ void print_triangle(int size);
 int mul(int a, int b);
 void print_number(int n);
 int _isdigit(int c);
+void print_numbers(void);
