@@ -10,16 +10,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-        int a, b;
+	int a, b;
 
-        for (a = 0; dest[a] != '\0'; a++)
-                ;
-        for (b = 0; src[b] != '\0'; b++)
-        {
-                dest[a] = src[b];
-                a++;
-        }
-        return (dest);
+	for (a = 0; dest[a] != '\0'; a++)
+		;
+	for (b = 0; src[b] != '\0'; b++)
+	{
+		dest[a] = src[b];
+		a++;
+	}
+	return (dest);
 }
 
 /**
@@ -46,7 +46,6 @@ int _strlen(char *s)
  *
  * Return: Returns a pointer to a new string, or NULL if it fails
  */
-
 char *argstostr(int ac, char **av)
 {
 	int index, sumString;
@@ -70,3 +69,4 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	return (newString);
 }
+
